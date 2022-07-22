@@ -1,0 +1,44 @@
+h1
+{
+    background-color: red;
+   
+    
+    text-shadow: 2px 2px 2px 2px;
+    text-align: center;
+}
+input
+{
+    color: blue;
+    background-color: rgb(157, 226, 9);
+    box-shadow: 3px 3px 3px 5px;
+    
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+p {
+
+   font-size: 30px ;
+   text-align: center;
+
+}
+button
+{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    border-radius: 230%;
+    display: block;
+    margin: 10px 50px 0px 50%;
+    padding: 10px 10px 10px 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+element.style
+{
+    background-color: rebeccapurple;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <h1>Тест №1</h1>
+    <p>Решите пример 2+7=</p> <input type="text" id="odin">
+    <p>Решите пример 4+9=</p> <input type="text" id="dva">
+    <p>Решите пример 8+5=</p> <input type="text" id="tri">
+     <button onclick="test()">ok</button>
+    
+    
+
+
+    
+    <script>
+        function test()
+        {
+        var point=0;
+        var x1;
+        var x2;
+        var x3;
+        var x1=document.getElementById("odin").value;
+        var x2=document.getElementById("dva").value;
+        var x3=document.getElementById("tri").value;
+        if (x1=="9") 
+        {
+            point=point+10;
+        }
+        if (x2=="13")
+        {
+            point=point+10;
+        }
+        if (x3=="13")
+        {
+            point=point+10;
+        }
+        
+document.write("Вы набрали "+point+ " баллов");
+
+
+
+
+        }
+    </script>
+</body>
+</html>
